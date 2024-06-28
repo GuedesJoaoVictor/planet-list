@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0c0c0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d3d3d3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .form-title {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */
+
+.planet-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.planet-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border: none;
+}
+
+.planet-form input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+}
+
+.planet-form textarea {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+}
+
+.planet-form textarea:focus-visible {
+  outline: 1px solid #2b13b8;
+}
+
+.planet-form input:focus-visible {
+  outline: 1px solid #2b13b8;
+}
+
+.planet-form input:hover {
+  background-color: #e7e7e7f1;
+}
+
+.planet-form textarea:hover {
+  background-color: #e7e7e7f1;
+}
+
+.planet-form button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #13b845;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.planet-form button:hover {
+  background-color: #13b850f1;
+}
+
+.planets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.planets hr {
+  display: flex;
+  margin: 2rem;
+  width: 50vw;
+}
+
+.planets a {
+  text-decoration: underline;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color: #1347b8f1;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#planet-link {
+  background-color: #1347b8f1;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.planet hr {
+  margin: 1rem;
+  width: 50vw;
+}
+
+.planet input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet input:focus-visible {
+  outline: 1px solid #2b13b8;
+}
+
+.planet input:hover {
+  background-color: #e7e7e7f1;
+}
+
+.planet button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #1323b8;
+  color: #d3d3d3;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.planet button:hover {
+  background-color: #1323b8f1;
+}
+
+#button-submit {
+  background-color: #0d6d1d;
+}
+
+#button-submit:hover {
+  background-color: #0d6d1df1;
+}
+
+hr {
+  margin: 2rem;
+}
