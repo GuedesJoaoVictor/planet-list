@@ -46,5 +46,5 @@ Acesse a aplicação no seu navegador através do endereço:
 http://localhost:3000
 
 
-###Contribuições
+### Contribuições
 Sinta-se à vontade para abrir issues ou enviar pull requests. Toda contribuição é bem-vinda e apreciada! Se você encontrar algum problema ou tiver sugestões de melhorias, não hesite em compartilhar.
