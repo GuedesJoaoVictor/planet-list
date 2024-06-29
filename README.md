@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+### Projeto React: Explorador de APIs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Descrição
+Este projeto é o meu primeiro passo no universo do desenvolvimento front-end com React. Nele, explorei a criação e separação de componentes, além da integração com APIs para consumir e exibir dados dinâmicos. A aplicação foi desenvolvida com o objetivo de aprender e praticar os conceitos fundamentais do React, bem como melhorar minhas habilidades em JavaScript, CSS e práticas de desenvolvimento modernas.
 
-## Available Scripts
+### Funcionalidades
 
-In the project directory, you can run:
+Arquitetura de Componentes: Implementação de uma estrutura modular e reutilizável utilizando componentes React.
 
-### `npm start`
+Consumo de API: Integração com uma API externa para buscar e exibir dados em tempo real.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estado e Props: Gerenciamento do estado da aplicação e passagem de propriedades entre componentes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Estilização: Utilização de CSS para estilizar os componentes, garantindo uma interface visualmente agradável e responsiva.
 
-### `npm test`
+Hooks: Uso de React Hooks, como useState e useEffect, para gerenciar o ciclo de vida dos componentes e estados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Manipulação de Eventos: Implementação de eventos de usuário para interação dinâmica, como cliques e submissões de formulários.
 
-### `npm run build`
+### Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React: Biblioteca JavaScript para construção de interfaces de usuário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JavaScript (ES6+): Linguagem de programação utilizada para a lógica da aplicação.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CSS3: Linguagem de estilos para a formatação visual da aplicação.
 
-### `npm run eject`
+API Externa: Consumo de dados de uma API pública para exibição de informações dinâmicas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fetch API: Técnica para realizar requisições HTTP e manipular respostas assíncronas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como Executar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone o repositório para o seu ambiente local:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/GuedesJoaoVictor/planet-list.git
 
-## Learn More
+## Navegue até o diretório do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd projeto-react-explorador-api
+Instale as dependências necessárias:
+npm install
+Inicie a aplicação:
+npm start
+Acesse a aplicação no seu navegador através do endereço:
+http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###Contribuições
+Sinta-se à vontade para abrir issues ou enviar pull requests. Toda contribuição é bem-vinda e apreciada! Se você encontrar algum problema ou tiver sugestões de melhorias, não hesite em compartilhar.
